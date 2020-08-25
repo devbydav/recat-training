@@ -1,0 +1,7 @@
+# Editor
+.idea/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride

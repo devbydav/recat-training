@@ -1,0 +1,147 @@
+html, body, div, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Geneva, sans-serif;
+}
+body {
+	background-color: #525353;
+    color: white;
+	font-size: 20px;
+	text-align: center;
+}
+#section-retour {
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+}
+.retour {
+    display: none;
+    height: 50px;
+    line-height: 50px;
+}
+#bonne-rep{
+    color: #115c2b;
+    background-color: #66b97f;
+    border-radius: 5px;
+    border: 1px solid #115c2b;
+}
+#mauvaise-rep{
+    color: #860707;
+    background-color: #cb5252;
+    border-radius: 5px;
+    border: 1px solid #860707;
+}
+#section-radar {
+    height: 150px;
+    width: 460px;
+    position: relative;
+    margin: 0 auto;
+    color: #db81b2;
+    text-align: left;
+}
+#groupe-leader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 130px;
+    width: 230px;
+}
+#groupe-follower {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 130px;
+    width: 230px;
+}
+.comete {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #db81b2;
+}
+.com1 {
+    top: 10px;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: #db81b2;
+}
+.com2 {
+    top: 15px;
+    left: 28px;
+    height: 15px;
+    width: 15px;
+}
+.com3 {
+    top: 18px;
+    left: 40px;
+    height: 9px;
+    width: 9px;
+}
+.com4 {
+    top: 19px;
+    left: 49px;
+    height: 7px;
+    width: 7px;
+}
+.com5 {
+    top: 20px;
+    left: 57px;
+    height: 5px;
+    width: 5px;
+}
+.com6 {
+    top: 21px;
+    left: 63px;
+    height: 3px;
+    width: 3px;
+}
+.S {
+    position: absolute;
+    top: 27px;
+    left : 39px;
+}
+.ligne {
+    position: absolute;
+    height: 65px;
+    border: 1px solid #db81b2;
+    top: 32px;
+    left : 80px;
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    transform: rotate(130deg);
+}
+.etiquette {
+    font-size: 20px;
+    position: absolute;
+    top: 37px;
+    left : 112px;
+}
+
+#section-boutons {
+    margin: 30px auto 80px;
+    width: 500px;
+}
+button {
+    width: 130px;  height: 70px;
+    cursor: pointer;
+    margin : 20px 8px;
+    display: inline-block;
+    border-radius: 7px;
+    color: #313131;
+    background-color: #b8b8b8;  
+    font-size: 20px;
+}
+.bouton-mauvaise {
+    background-color: #cc3131;
+}
+#section-score {
+    width: 500px;
+    height: 50px;
+    margin: 80px auto 10px;
+}
+.ligne0 {
+    color: #860707;
+    visibility: hidden;
+}

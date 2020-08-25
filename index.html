@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="section-retour">
+        <div id="bonne-rep" class="retour">
+            Bonne réponse
+        </div>
+        <div id="mauvaise-rep" class="retour">
+            Mauvaise réponse
+        </div>
+    </div>
+    
+    <div id="section-radar">
+        <div id="groupe-leader">
+            <div class="comete com1"></div>
+            <div class="comete com2"></div>
+            <div class="comete com3"></div>
+            <div class="comete com4"></div>
+            <div class="comete com5"></div>
+            <div class="comete com6"></div>
+            <div class="S">S</div>
+            <div class="ligne"></div>
+            <div class="etiquette">
+                <p class="ligne0 cache">STCA</p>
+                <p id="ligne1-leader"></p>
+                <p id="ligne2-leader"></p>
+            </div>
+        </div>
+        <div id="groupe-follower">
+            <div class="comete com1"></div>
+            <div class="comete com2"></div>
+            <div class="comete com3"></div>
+            <div class="comete com4"></div>
+            <div class="comete com5"></div>
+            <div class="comete com6"></div>
+            <div class="S">S</div>
+            <div class="ligne"></div>
+            <div class="etiquette">
+                <p class="ligne0 cache">STCA</p>
+                <p id="ligne1-follower"></p>
+                <p id="ligne2-follower"></p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="section-boutons">
+        <div>
+            <button type="button" class="reponse" id="3">3 Nm</button>
+            <button type="button" class="reponse" id="4">4 Nm</button>
+            <button type="button" class="reponse" id="5">5 Nm</button>
+        </div>
+        <div>
+            <button type="button" class="reponse" id="6">6 Nm</button>
+            <button type="button" class="reponse" id="7">7 Nm</button>
+            <button type="button" class="reponse" id="8">8 Nm</button>
+        </div>
+    </div>
+    
+    <div>
+        <p>Score : <span id='score'>0 / 0</span></p>
+    </div>
+
+    <script src="fw/jquery.min.js"></script>
+    <script type="text/javascript" src="recat.js"></script>
+  
+</body>
+</html>
